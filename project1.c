@@ -233,7 +233,7 @@ void displayOrderDetails(struct CakeOrder *order) {
     printf("Phone Number: %s\n", order->phone);
     printf("Cake Flavor: %s ($%.2lf)\n", order->cake, order->cakePrice);
     printf("Frosting: %s ($%.2lf)\n", order->frosting, order->frostingPrice);
-    printf("Toppings: %s ($%.2lf)\n", order->toppings, order->toppingsPrice);
+    printf("Toppings: %s ($%.2lf)\n", order->toppings, order->toppingsPrice):
     printf("Message on cake: %s\n", order->message);
     printf("Pounds of Cake: %.2lf\n", order->pounds);
     printf("Total Price: $%.2lf + $%.2lf + $%.2lf + (%.2lf * $8) = $%.2lf\n", order->cakePrice, order->frostingPrice, order->toppingsPrice, order->pounds, order->totalPrice);
